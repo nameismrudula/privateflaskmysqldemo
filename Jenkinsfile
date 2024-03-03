@@ -7,7 +7,8 @@ pipeline {
                 script {
                     // Let's clone the source
                     //git branch: 'main', credentialsId: 'github', url: 'https://github.com/vinayprakash893/docker-ec2-jenkins.git'
-                      git branch: 'main', credentialsId: '70013610-30e4-4d1a-89a0-ff61e434be5c', url: 'https://github.com/nameismrudula/dockermysqlapp.git'
+                    // git branch: 'main', credentialsId: '70013610-30e4-4d1a-89a0-ff61e434be5c', url: 'https://github.com/nameismrudula/dockermysqlapp.git'
+                       git branch: 'main', credentialsId: '70013610-30e4-4d1a-89a0-ff61e434be5c', url: 'https://github.com/nameismrudula/privateflaskmysqldemo'
                 }
             }
         }
