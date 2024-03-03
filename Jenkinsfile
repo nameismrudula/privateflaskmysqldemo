@@ -23,7 +23,7 @@ pipeline {
             
              // sh "docker-compose -f docker-compose.yml -f docker-compose1.yml down -d"// && docker-compose -f docker-compose.yml -f docker-compose1.yml up"
               //sh "docker-compose -f docker-compose.yml -f docker-compose1.yml up -d "
-              sh "docker-compose -f docker-compose.yml -f docker-compose1.yml down && docker-compose -f docker-compose.yml -f docker-compose1.yml up "
+              sh "docker-compose -f docker-compose.yml -f docker-compose1.yml down && docker-compose -f docker-compose.yml -f docker-compose1.yml up -d "
 
           }
         }
