@@ -22,7 +22,7 @@ pipeline {
           steps{
             
               //sh "docker-compose -f docker-compose.yml -f docker-compose1.yml down && docker-compose -f docker-compose.yml -f docker-compose1.yml up"
-              sh "docker-compose -f docker-compose.yml -f docker-compose1.yml up --build"
+              sh "docker-compose -f docker-compose.yml -f docker-compose1.yml up -d "
 
           }
         }
